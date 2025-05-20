@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trillest Wears Collection</title>
+  </head>
+  <body>
+    <header>
+      <h1>Trillest Wears</h1>
+      <p>Be comfortable in your skin - a mix of style and comfort</p>
+      <hr />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#collection">Our Collections</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <hr />
+    </nav>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        At Trillest Wears, we believe fashion is not only about looks, fashion
+        is a language, fashion is a feeling. Being comfortable in your skin and
+        your Jean is a good combo. We are a fashion brand that specializes in
+        creating unique and stylish clothing for individuals who want to express
+        their personality through their wardrobe. Our mission is to provide
+        high-quality, trendy, and affordable clothing that makes our customers
+        feel confident and stylish. We are here to help you translate your
+        visual appearance to a tee with assured attention to details and a
+        steady stream of customer support for improvement and complaints.
+      </p>
+    </section>
+
+    <section id="collection">
+      <h2>Our Collections</h2>
+
+      <ul>
+        <li>Urban Street Wears</li>
+        <li>Corporate Official Wears</li>
+        <li>Native Wears</li>
+        <li>Limited Edition and Custom Designs</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Email:
+        <a href="mailto:trillestwears@gmail.com"> trillestwears@gmail.com </a>
+      </p>
+      <p>
+        Phone:
+        <a href="phone:+2348139797423"> +234 8139797423 </a>
+      </p>
+      <p>
+        TikTok:
+        <a href=""> trillest_wears </a>
+      </p>
+
+      <form
+        name="contact"
+        action="/form-confirmation.html"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <div style="display: none">
+          <label
+            >Don’t fill this out if you're human: <input name="bot-field"
+          /></label>
+        </div>
+
+        <h3>Kindly reach out to us using the form below:</h3>
+
+        <div>
+          <label for="first-name">First Name:</label><br />
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="Enter your first name"
+          />
+        </div>
+
+        <div>
+          <label for="last-name">Last Name: </label><br />
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Enter your last name"
+          />
+        </div>
+
+        <div>
+          <fieldset>
+            <legend>Preferred Collection:</legend>
+
+            <div>
+              <input
+                type="checkbox"
+                name="collection"
+                id="urban-wear"
+                value="Urban Wear"
+              />
+              <label for="urban-wear">Urban Wear </label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                name="collection"
+                id="corporate-wear"
+                value="Corporate Wear"
+              />
+              <label for="corporate-wear">Corporate Wear </label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                name="collection"
+                id="native-wear"
+                value="Native wear"
+              />
+              <label for="native-Wear">Native Wear</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                name="collection"
+                id="limited-edition"
+                value="Limited Edition"
+              />
+              <label for="limited-edition">Limited Edition</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          /><br />
+        </div>
+
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Enter your phone number"
+            required
+          /><br />
+        </div>
+
+        <div>
+          <fieldset>
+            <legend>Gender:</legend>
+
+            <div>
+              <input type="radio" id="male" name="gender" value="Male" />
+              <label for="male">Male</label>
+            </div>
+
+            <div>
+              <input type="radio" id="female" name="gender" value="Female" />
+              <label for="female">Female</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div>
+          <label for="contact-method">
+            Preferred Contact Method: <br />
+            <select name="contact-method" id="contact-method">
+              <option value="Email">Email</option>
+              <option value="Phone">Phone Call</option>
+              <option value="Text">Text Message</option>
+            </select>
+          </label>
+        </div>
+
+        <div>
+          <label for="message"> Send a message <br /> </label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+    <footer>
+      <hr />
+      <p>&copy;2025 Trillest Wears Collection.</p>
+    </footer>
+  </body>
+</html>
